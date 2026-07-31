@@ -117,8 +117,4 @@ python proof_test.py
 `kronos-ai` `time-series-forecasting` `candlestick-prediction` `nifty50-forecasting` `indian-stock-market` `financial-foundation-model` `openrouter` `algorithmic-trading` `quant-finance` `python-trading-bot`
 
 ---
-
-![alt text](raycodes_kronos_workflow_sketch-1.webp)
-
----
 *Built with simplicity, elegance, and AI quantitative accuracy for the Indian financial ecosystem.*
