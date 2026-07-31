@@ -24,7 +24,8 @@ if os.path.exists(".env"):
                 os.environ.setdefault(_key.strip(), _val.strip().strip('\"').strip("'"))
 
 # Fixed models as mandated by specification
-OPENROUTER_MODEL = "openrouter/auto"
+# openrouter/free = free-models router (auto-selects a no-cost model; no credits needed).
+OPENROUTER_MODEL = "openrouter/free"
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "")
 if not OPENROUTER_API_KEY:
     print("[WARN] OPENROUTER_API_KEY is not set — AI commentary will fall back to built-in explanations.")

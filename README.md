@@ -1,4 +1,4 @@
-# 🇮🇳 Kronos Indian Market Advisor
+# Kronos Indian Market Advisor
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![AI: Kronos Base](https://img.shields.io/badge/Foundation_Model-Kronos_Base_400MB-blue.svg)
@@ -115,6 +115,10 @@ python proof_test.py
 ## 🏷️ Keywords & Tags
 
 `kronos-ai` `time-series-forecasting` `candlestick-prediction` `nifty50-forecasting` `indian-stock-market` `financial-foundation-model` `openrouter` `algorithmic-trading` `quant-finance` `python-trading-bot`
+
+---
+
+![alt text](raycodes_kronos_workflow_sketch-1.webp)
 
 ---
 *Built with simplicity, elegance, and AI quantitative accuracy for the Indian financial ecosystem.*
