@@ -38,7 +38,7 @@ An advanced, AI-driven quantitative prediction and interpretation system designe
 First, clone the official Kronos foundation model repository into `kronos_lib` and install standard Python dependencies (a virtual environment is recommended):
 ```bash
 git clone https://github.com/shiyu-coder/Kronos.git kronos_lib
-python3 -m venv .venv && source .venv/bin/activate
+python3 -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install --upgrade transformers huggingface_hub safetensors pandas einops matplotlib tqdm yfinance jinja2 requests torch
 ```
 
@@ -62,7 +62,7 @@ The first execution automatically caches the ~400MB `NeoQuasar/Kronos-base` mode
 ### Execute Market Advisor
 Run the primary pipeline to fetch latest Indian market K-lines, generate 14-day predictions, compute support/resistance levels, and produce beginner-friendly advisory reports:
 ```bash
-python market_advisor.py
+python market_advisor.py   # or .venv/bin/python market_advisor.py if the venv isn't activated
 ```
 
 Upon execution, the system creates:
